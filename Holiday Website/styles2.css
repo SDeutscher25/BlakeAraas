@@ -1,0 +1,42 @@
+h1 {
+    color:#ffffff;
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+    color: #1fcbff
+}
+h3 {
+    color:#6bff00;
+}
+body {
+    background-image: url("fireworks.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+    color:white
+}
+
+a:link{
+    background-color: #23c4ac;
+    color: white;
+    padding: 10px 30px;
+    text-align:right;
+    text-decoration: none;
+    display: inline-block;
+    margin-right:35px;
+}
+
+hr {
+    color: #000000;
+    border: 4px solid white;
+  border-radius: 326px;
+}
+
+img {
+  border: 8px solid #1fcbff;
+  border-radius: 319px;
+}

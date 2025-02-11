@@ -1,0 +1,46 @@
+a:link{
+    background-color: #32ff2a;
+    color: white;
+    padding: 10px 30px;
+    text-align:right;
+    text-decoration: none;
+    display: inline-block;
+    margin-right:35px;
+}
+
+body {
+    background-image: url("saintpatricks.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+    color:#32ff2a;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color:#32ff2a;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: #ffd700
+}
+
+p {
+    color:snow
+}
+
+img {
+  border: 8px solid #32ff2a;
+  border-radius: 319px;
+}

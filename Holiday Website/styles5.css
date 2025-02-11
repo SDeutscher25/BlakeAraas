@@ -1,0 +1,55 @@
+.title {
+    color: green;
+}
+body{
+    background-color: #f46059
+}
+h1 {
+    color: #1ec400
+}
+h1 {
+    text-align:center;
+}
+h2 {
+    text-align:center;
+    color: #1ec400
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%
+}
+
+td, th {
+    border: 10px solid green;
+    text-align: center;
+    padding: 7px;
+}
+
+tr:nth-child(even) {
+    background-color:#1ec400;
+}
+img {
+  border: 8px solid #1ec400;
+  border-radius: 319px;
+}
+
+a:link{
+    background-color: #1ec400;
+    color: white;
+    padding: 10px 30px;
+    text-align:right;
+    text-decoration: none;
+    display: inline-block;
+    margin-right:35px;
+}
+
+hr {
+    color: #000000;
+    border: 4px solid #1ec400;
+  border-radius: 326px;
+}
+
+h2 {
+  text-decoration: underline;
+}
