@@ -1,0 +1,35 @@
+.title {
+    color:  #8fd7ed;
+}
+body{
+    background-color: #30bcbc;
+        color: white;
+}
+p{
+    color: yellow;
+}
+hr{
+    border: 10px solid #eaab46;
+    border-radius: 2px
+}
+h1 {
+  font-size: 66px;
+}
+h1 {
+  font-weight:1000 ;
+}
+h1 {
+  font-style: italic;
+}
+h1 {
+  text-align: center;
+}
+img{
+    border: 5px solid #ffffff;
+    height: 527px;
+    width: 514px;
+    border-radius: 62%;
+}
+img {
+    text-align: center
+}
