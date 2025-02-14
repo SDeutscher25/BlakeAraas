@@ -1,0 +1,74 @@
+.title {
+    color: green;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("marvel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a:link {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 39px;
+    margin-left: 213px;
+}
+
+p {
+    color: aliceblue;
+    margin-left: 100px;
+    margin-right: 250px;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 
+}
+
+table {
+    font-family: Cambria, Cochin, Georgia, Times, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 5px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #ffffff;
+    font-size:20px;
+}
+
+tr:nth-child(even) {
+    background-color: #c1dbb7;
+}
+
+li {
+    color: #f5ef99;
+    font-size: 20px;
+    margin-left: 442px;
+    margin-right: 100px;
+}
+
+.myDiv {
+  border: 5px outset white;
+  background-color: #af2f2f;    
+  text-align: center;
+}
+
+hr {
+    border: red
+}
+
