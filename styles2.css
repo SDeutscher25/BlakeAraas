@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    color: #c33e3e;
+    font-size: 59px;
+}
+
+body {
+    background-image: url("captainamerica.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a:link {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 39px;
+    margin-left: 213px;
+}

@@ -56,9 +56,9 @@ tr:nth-child(even) {
 }
 
 li {
-    color: #f5ef99;
+    color: #c8ecff;
     font-size: 20px;
-    margin-left: 442px;
+    margin-left: 601px;
     margin-right: 100px;
 }
 
@@ -70,5 +70,14 @@ li {
 
 hr {
     border: red
+}
+
+img {
+  border: 8px solid #ff0000;
+  border-radius: 319px;
+    height: 374px;
+    width: 466px;
+        margin-left: 69px;
+    margin-right: 70px;
 }
 
