@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     color: #c33e3e;
     font-size: 59px;
+    text-decoration: underline;
 }
 
 body {
@@ -21,3 +22,91 @@ a:link {
     margin-right: 39px;
     margin-left: 213px;
 }
+
+.myDiv {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    background-color: #c33e3e;
+    text-align: center;
+}
+
+.myDiv2 {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    background-color: #c33e3e;
+    text-align: center;
+}
+
+.myDiv3 {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    background-color: #c33e3e;
+    text-align: center;
+} 
+
+table {
+    border-collapse: collapse;
+    width: 15%;
+    margin-left: 775px;
+    margin-right: 500px;
+}
+
+td, th {
+    border: 5px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #ffffff;
+    font-size:20px;
+}
+
+tr:nth-child(even) {
+    background-color: #c33e3e;
+}
+
+h2 {
+    color: #8b1919;
+    margin-left: 351px;
+    font-size: 41px;
+}
+
+li {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 289px;
+    margin-right: 100px;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+h3 {
+    color: #8b1919;
+    margin-left: 600px;
+    font-size: 35px;
+     text-decoration: underline;
+}
+
+.myDiv4 {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    background-color: #c33e3e;
+    text-align: center;
+     margin-left: 156px;
+    margin-right: 634px;
+}
+
+img {
+  border: 8px solid #c33e3e;
+  border-radius: 319px;
+    height: 452px;
+    width: 466px;
+        margin-left: 69px;
+    margin-right: 70px;
+}
+
+
