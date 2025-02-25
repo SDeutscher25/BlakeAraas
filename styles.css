@@ -1,83 +1,211 @@
 .title {
     color: green;
 }
-
-h1 {
-    color: #ff0000;
-}
-
-h1 {
-    text-align: center;
-    text-decoration: underline;
+:root {
+    height: 100%;
 }
 
 body {
-    background-image: url("marvel.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #7d6eb3;
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+#ghastly {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#body {
+    background-color: #7d6eb3;
+    border-radius: 50%;
+    width: 365px;
+    height: 365px;
+    position: relative;
+    top: -182.5px;
+    left: -182.5px;
+    z-index: 4;
+}
+
+.leftEye {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    z-index: 10;
+}
+
+.leftEyeBlock {
+    background-color: #7d6eb3;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    left: -10px;
+    z-index: 10;
+
+    transform: rotate(30deg);
+}
+
+.leftEyePupil {
+    background-color: #4c2854;
+    border-radius: 40%;
+    width: 4px;
+    height: 10px;
+    position: absolute;
+    top: 85px;
+    left: 110px;
+    z-index: 8;
+}
+
+.rightEye {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    z-index: 9;
+}
+
+.rightEyeBlock {
+    background-color: #7d6eb3;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    right: -10px;
+    z-index: 11;
+
+    transform: rotate(-30deg);
+}
+
+.rightEyePupil {
+    background-color: #4c2854;
+    border-radius: 40%;
+    width: 4px;
+    height: 10px;
+    position: absolute;
+    top: 85px;
+    right: 110px;
+    z-index: 10;
+}
+
+.mouth {
+    background-color: #ed779a;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    z-index: 6;
+}
+
+.mouthBlock {
+    background-color: #7d6eb3;
+    border-radius: 50%;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+    z-index: 7;
+}
+
+.teethTop1 {
+    background-color: #7d6eb3;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 140px;
+    right: 40px;
+    z-index: 10;
+
+    transform: rotate(25deg);
+}
+
+.teethTop2 {
+    background-color: #7d6eb3;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    z-index: 10;
+    transform: rotate(-25deg);
+}
+
+.teethBottom1 {
+    background-color: #7d6eb3;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    z-index: 10;
+    transform: rotate(-20deg);
+}
+
+.teethBottom2 {
+    background-color: #7d6eb3;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 230px;
+    right: 80px;
+    z-index: 10;
+    transform: rotate(20deg);
+}
+
+.teethBottom3 {
+    background-color: #7d6eb3;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 240px;
+    right: 130px;
+    z-index: 10;
+    transform: rotate(45deg);
+}
+
+.teethBottom4 {
+    background-color: #7d6eb3;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 240px;
+    right: 180px;
+    z-index: 10;
+    transform: rotate(56deg);
+}
+
+.teethBottom5 {
+    background-color: #7d6eb3;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    z-index: 10;
+    transform: rotate(-20deg);
 }
 
 a:link {
-    background-color: red;
+    background-color: #ccc6e2;
     color: white;
-    padding: 15px 20px;
+    padding: 15px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-right: 39px;
-    margin-left: 213px;
+    margin-right: 71px;
+    margin-left: 531px;
 }
 
-p {
-    color: aliceblue;
-    margin-left: 100px;
-    margin-right: 250px;
-    font-size: 17px;
-    font-family: Impact, Haettenschweiler, 
-}
-
-table {
-    font-family: Cambria, Cochin, Georgia, Times, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 5px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-    color: #ffffff;
-    font-size:20px;
-}
-
-tr:nth-child(even) {
-    background-color: #c1dbb7;
-}
-
-li {
-    color: #c8ecff;
-    font-size: 20px;
-    margin-left: 601px;
-    margin-right: 100px;
-}
-
-.myDiv {
-  border: 5px outset white;
-  background-color: #af2f2f;    
-  text-align: center;
-}
-
-hr {
-    border: red
-}
-
-img {
-  border: 8px solid #ff0000;
-  border-radius: 319px;
-    height: 374px;
-    width: 466px;
-        margin-left: 69px;
-    margin-right: 70px;
-}
 
