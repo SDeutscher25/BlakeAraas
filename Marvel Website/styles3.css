@@ -1,0 +1,122 @@
+body {
+    background-image: url("ironman.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 49px;
+    text-decoration: underline;
+}
+
+a:link {
+    background-color: #db0c0c;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 39px;
+    margin-left: 213px;
+}
+
+.myDiv {
+    border-style: solid;
+    border-color: #db0c0c;
+    border-width: 5px;
+    background-color: #eac629;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.myDiv2 {
+    border-style: solid;
+    border-color: #db0c0c;
+    border-width: 5px;
+    background-color: #eac629;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 295px;
+}
+
+.myDiv3 {
+    border-style: solid;
+    border-color: #db0c0c;
+    border-width: 5px;
+    background-color: #eac629;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+} 
+
+.myDiv4 {
+    border-style: solid;
+    border-color: #db0c0c;
+    border-width: 5px;
+    background-color: #eac629;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+} 
+
+.myDiv5 {
+    border-style: solid;
+    border-color: #db0c0c;
+    border-width: 5px;
+    background-color: #eac629;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+} 
+
+table {
+    border-collapse: collapse;
+    width: 15%;
+    margin-left: 175px;
+    margin-right: 500px;
+}
+
+td, th {
+    border: 5px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    color: #ffffff;
+    font-size:20px;
+}
+
+tr:nth-child(even) {
+    background-color: #c33e3e;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 43px;
+    margin-left: 1410px;
+    text-decoration: underline;
+}
+
+li {
+    color: #eac629;
+    font-size: 20px;
+    margin-left: 1349px;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+img {
+  border: 8px solid #c33e3e;
+  border-radius: 319px;
+    height: 412px;
+    width: 466px;
+        margin-left: 69px;
+    margin-right: 70px;
+}
