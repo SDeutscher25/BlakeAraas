@@ -1,0 +1,72 @@
+body {
+    background-image: url("galaxy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: ;
+    text-align: ;
+}
+
+
+nav li {
+    background-color: white;
+    margin: 21px;
+    padding: 16px;
+    border-radius: 11px;    
+    display: inline-flex;
+    align-items: center;
+}
+
+.photo img{
+    width: 221px;
+    border-radius: 20px;
+    flex-direction: row;
+}
+
+.thumbs img {
+    height: 
+    border-radius: ;    
+}
+
+.droid {
+    background-color: #7e7b7b;
+    padding: 5px;
+    margin: 41px;
+    border: 2px solid white;
+    border-radius: 24px; 
+    color: white;
+    flex-direction: row;
+
+}
+
+.droid .photo {
+    float: ;
+    margin: ;
+}
+
+.droid:nth-child(even) .photo {
+   
+}
+
+.desc {
+    margin: 1
+}
+
+.droid .thumbs {
+   
+}
+
