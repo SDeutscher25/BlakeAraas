@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Match Game</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="logic2.js"></script>
+        <link rel="stylesheet" href="styles2.css" />
+
+        <style>
+            body {
+                text-align: center;
+                background-image: url("basketball.png");
+                background-size: 125%;
+            }
+
+            h1 {
+            
+                font-family: "Sniglet", cursive;
+                color: #000000;
+                margin: 10px;
+            }
+
+            #game-wrapper {
+                margin: auto;
+                margin-top: 40px;
+                padding: 20px;
+                width: 815px;
+                background-color: #8097ff;
+                border-radius: 20px;
+                border: 2px solid #2e281c;
+            }
+
+            .card {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                backface-visibility: hidden;
+            }
+
+            .card_front {
+                background-image: linear-gradient(tan, white);
+            }
+
+            .card_back {
+                background: white;
+                transform: rotateY(180deg);
+            }
+
+            .card_back img {
+                width: 80px;
+                height: 80px;
+                margin-top: 10px;
+            }
+
+            .is-flipped {
+                transform: rotateY(180deg);
+            }
+
+            a {
+                font-family: "Sniglet", cursive;
+                background-color: #ffdc97;
+                display: block;
+                padding: 10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="game-wrapper">
+            <h1>College Basketball Match Game</h1>
+            <div id="match-grid"></div>
+            <a onclick="start()">RESTART</a>
+        </div>
+
+        <script>
+            var images = [
+                "arizona.png",
+                "arkansas.png",
+                "auburn.png",
+                "bama.png",
+                "byu.png",
+                "duke.png",
+                "florida.png",
+                "houston.png",
+                "kentucky.png",
+                "maryland.png",
+                "michigan.png",
+                "msu.png",
+                "olemiss.png",
+                "purdue.png",
+                "tennessee.png",
+                "ttu.png",
+                "mm.png",
+            ];
+            start();
+        </script>
+    </body>
+</html>
