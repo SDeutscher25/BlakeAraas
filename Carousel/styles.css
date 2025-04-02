@@ -37,6 +37,7 @@ body {
 .a {
   transform: rotateY(0deg) translateZ(250px);
   background: #ed1c24;
+  size: 50px;
 }
 .b {
   transform: rotateY(60deg) translateZ(250px);
