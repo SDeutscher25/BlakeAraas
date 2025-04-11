@@ -1,0 +1,178 @@
+h1 {
+    margin-left: -798px;
+    height: 750px;
+}
+
+h1 {
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+a:link {
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    background-color: #64baff;
+    color: #000000;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 324px;
+    margin-bottom: 458px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74vh;
+    background-color: #b8afaf;
+    margin: 10;
+    overflow: hidden;
+}
+.scene {
+    perspective: 827px;
+}
+.rectangle {
+    position: relative;
+    width: 172px;
+    transform-style: preserve-3d;
+    animation: rotate 4s infinite linear;
+}
+.rectangle div {
+    position: absolute;
+    width: 233px;
+    height: 100px;
+    background: rgba(0, 255, 255, 0.3);
+    border: 2px solid cyan;
+    box-shadow: 0 0 5px cyan;
+    transition: 0.3s;
+}
+.rectangle:hover div {
+    box-shadow: 0 0 5px cyan;
+}
+.front {
+    transform: translateZ(50px);
+}
+.back {
+    transform: rotateY(180deg) translateZ(50px);
+}
+.left {
+    transform: rotateY(0deg) translateZ(50px);
+}
+.right {
+    transform: rotateY(0deg) translateZ(50px);
+}
+.top {
+    transform: rotateX(90deg) translateZ(50px);
+}
+.bottom {
+    transform: rotateX(-90deg) translateZ(50px);
+}
+@keyframes rotate {
+    0% {
+        transform: rotateX(0) rotateY(0);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.scene2 {
+    perspective: 1035px;
+}
+.square {
+    position: relative;
+    width: 285px;
+    transform-style: preserve-3d;
+    animation: rotate 5s infinite linear;
+}
+.square div {
+    position: absolute;
+    width: 33px;
+    height: 100px;
+    background: rgba(151, 85, 203, 0.3);
+    border: 2px solid #bd65f1;
+    box-shadow: 0 0 5px #bd65f1;
+    transition: 0.3s;
+}
+.square:hover div {
+    box-shadow: 0 0 5px #bd65f1;
+}
+.front2 {
+    transform: translateZ(50px);
+}
+.back2 {
+    transform: rotateY(180deg) translateZ(50px);
+}
+.left2 {
+    transform: rotateY(0deg) translateZ(50px);
+}
+.right2 {
+    transform: rotateY(0deg) translateZ(50px);
+}
+.top2 {
+    transform: rotateX(90deg) translateZ(50px);
+}
+.bottom2 {
+    transform: rotateX(-90deg) translateZ(50px);
+}
+@keyframes rotate {
+    0% {
+        transform: rotateX(0) rotateY(0);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.scene3 {
+    perspective: 1035px;
+}
+.circle {
+    position: relative;
+    width: 185px;
+    transform-style: preserve-3d;
+    animation: rotate 13s infinite linear;
+}
+.circle div {
+    position: absolute;
+    width: 446px;
+    height: 100px;
+    background: rgba(238, 91, 134, 0.3);
+    border: 2px solid #f94c4c;
+    box-shadow: 0 0 5px #ff1548;
+    transition: 0.3s;
+}
+.circle:hover div {
+    box-shadow: 0 0 5px #f94c4c;
+}
+.front3 {
+    transform: translateZ(50px);
+}
+.back3 {
+    transform: rotateY(180deg) translateZ(50px);
+}
+.left3 {
+    transform: rotateY(0deg) translateZ(50px);
+}
+.right3 {
+    transform: rotateY(0deg) translateZ(50px);
+}
+.top3 {
+    transform: rotateX(90deg) translateZ(50px);
+}
+.bottom3 {
+    transform: rotateX(-90deg) translateZ(50px);
+}
+@keyframes rotate {
+    0% {
+        transform: rotateX(0) rotateY(0);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
