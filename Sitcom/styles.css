@@ -1,0 +1,33 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 71px;
+}
+
+body {
+  background-image: url("obx3.png");
+  background-size: cover;
+}
+
+img {
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 6px;
+  width: 217px;
+  height: 219px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #49aeff;
+  padding: 7px;
+}
+.container > div {
+  background-color: #f1f1f1;
+  border: 2px solid #1caae2;
+  padding: 7px;
+  font-size: 17px;
+  text-align: center;
+}
+
