@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>My First SVG</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Kings&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>My First SVG</h1>
+        <h2>Blake Araas</h2>
+        <svg width="611" height="522" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="301" cy="50" r="40" stroke="blue" stroke-width="4" fill="yellow" />
+        </svg>
+        <svg width="405" height="130" xmlns="http://www.w3.org/2000/svg">
+            <rect width="200" height="100" x="153" y="10" rx="20" ry="20" fill="violet" />
+        </svg>
+        <svg height="313" width="605" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="273,43 258,190 99,127" style="fill: lightblue; stroke: orange; stroke-width: 3" />
+        </svg>
+        <svg height="150" width="400" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="yellow" />
+                    <stop offset="100%" stop-color="red" />
+                </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        </svg>
+    </body>
+</html>
