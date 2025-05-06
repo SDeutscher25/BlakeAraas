@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    background-color: beige
+}
+
+a:link {
+    background-color: #ffffff;
+    color: #ea1010;
+    padding: 14px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 996px;
+    font-size: 30px;
+}
+
+iframe {
+    margin-left: 500px;
+}
