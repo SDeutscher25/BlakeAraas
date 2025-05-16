@@ -1,0 +1,21 @@
+a:link {
+    background-color: #ffffff;
+    color: #59bcff;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 39px;
+    margin-left: 344px;
+}
+
+body {
+    background-color: #b6eaff;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 109px;
+}
