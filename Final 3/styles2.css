@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-size: 30px;
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 534px;
+    margin-left: 50px;
+    font-size: 41px;
+}
+
+div {
+    background-color: #fff4a3;
+    width: 603px;
+    margin-left: 255px;
+}
+
+.umpire {
+    margin-left: 1107px;
+    margin-top: -844px;
+}
+
+img {
+    border: 13px solid #ffffff;
+}
